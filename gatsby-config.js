@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Strata by HTML5 UP',
-    author: 'Hunter Chang',
+    title: 'Connollys Tapas Bar',
+    author: 'Alex Quinn',
     description: 'A Gatsby.js Starter based on Strata by HTML5 UP',
   },
   plugins: [

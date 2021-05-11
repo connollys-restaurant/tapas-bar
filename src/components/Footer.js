@@ -5,30 +5,30 @@ const Footer = () => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="#" className="icon fa-twitter">
+          <a href="https://twitter.com/connollystapas" target="_blank" className="icon fa-twitter">
             <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-github">
-            <span className="label">Github</span>
+          <a href="https://www.instagram.com/connollystapas" target="_blank" className="icon fa-instagram">
+            <span className="label">Instagram</span>
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-dribbble">
-            <span className="label">Dribbble</span>
+          <a href="https://www.facebook.com/pages/category/Bar/Connollys-Deli-Tapas-Bar-114306121914586/" target="_blank" className="icon fa-facebook">
+            <span className="label">Facebook</span>
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-envelope-o">
+          <a href="mailto:info@connollystapasbar.co.uk" className="icon fa-envelope-o">
             <span className="label">Email</span>
           </a>
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Gatsby Starter Strata</li>
+        <li>&copy; Connolly's 2021</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          Mitts off.
         </li>
       </ul>
     </div>

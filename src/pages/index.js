@@ -1,12 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Connollys Tapas Bar'
+  const siteDescription = 'For over 10 years, Connollys has been the home of great tapas & wine in Stratford-Upon-Avon. We serve tapas favourites, hand-crafted pizza, daily specials and a great selection of wine, beer and spirits.'
 
   return (
     <Layout>
@@ -19,9 +18,7 @@ const HomeIndex = () => {
         <section id="one">
           <header className="major">
             <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
+              Restaurant & Bar
             </h2>
           </header>
           <p>
@@ -34,22 +31,31 @@ const HomeIndex = () => {
           </p>
           <ul className="actions">
             <li>
-              <a href="#" className="button">
-                Learn More
+              <a href="Menu" target="_blank" className="button">
+                Menu
               </a>
             </li>
           </ul>
         </section>
 
         <section id="two">
-          <h2>Recent Work</h2>
-
-          <Gallery />
-
+          <header className="major">
+            <h2>
+              Takeaway
+            </h2>
+          </header>
+          <p>
+            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
+            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
+            lobortis tortor primis integer massa adipiscing id nisi accumsan
+            pellentesque commodo blandit enim arcu non at amet id arcu magna.
+            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
+            lorem neque cubilia.
+          </p>
           <ul className="actions">
             <li>
-              <a href="#" className="button">
-                Full Portfolio
+              <a href="Takeaway-Menu" className="button">
+                Takeaway Menu
               </a>
             </li>
           </ul>
@@ -100,27 +106,41 @@ const HomeIndex = () => {
             </div>
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
+              <li>
+                  <h3 className="icon fa-clock-o">
+                    <span className="label">Opening Hours</span>
+                  </h3>
+                  Thursday - Saturday
+                  <br />
+                  5-9pm
+                </li>
                 <li>
+                <a href="https://g.page/Connollysrestaurant?share" target="_blank">
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  1234 Somewhere Rd.
+                </a>
+                  25 Main Street, Tididngton
                   <br />
-                  Nashville, TN 00000
+                  Stratford-Upon-Avon
                   <br />
-                  United States
+                  <a href="https://g.page/Connollysrestaurant?share" target="_blank">CV37 7AN</a>
                 </li>
                 <li>
-                  <h3 className="icon fa-mobile">
-                    <span className="label">Phone</span>
-                  </h3>
-                  000-000-0000
+                  <a href="tel:01789 204712">
+                    <h3 className="icon fa-mobile">
+                      <span className="label">Phone</span>
+                    </h3>
+                  </a>
+                  <a href="tel:01789 204712">01789 204712</a>
                 </li>
                 <li>
-                  <h3 className="icon fa-envelope-o">
-                    <span className="label">Email</span>
-                  </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="mailto:info@connollystapasbar.co.uk">  
+                    <h3 className="icon fa-envelope-o">
+                      <span className="label">Email</span>
+                    </h3>
+                  </a>
+                  <a href="mailto:info@connollystapasbar.co.uk">info@connollystapasbar.co.uk</a>
                 </li>
               </ul>
             </div>
