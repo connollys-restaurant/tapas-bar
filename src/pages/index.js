@@ -7,8 +7,8 @@ import Menu from '../assets/documents/Menu.pdf'
 import Takeaway from '../assets/documents/Takeaway-Menu.pdf'
 
 const HomeIndex = () => {
-  const siteTitle = 'Connollys Tapas Bar'
-  const siteDescription = 'For over 10 years, Connollys has been the home of great tapas & wine in Stratford-Upon-Avon. We serve tapas favourites, hand-crafted pizza, daily specials and a great selection of wine, beer and spirits.'
+  const siteTitle = 'Connolly\'s Tapas Bar'
+  const siteDescription = 'For over 10 years, Connolly\'s has been the home of great tapas & wine in Stratford-Upon-Avon. We serve tapas favourites, hand-crafted pizza, daily specials and a great selection of wine, beer and spirits.'
 
   return (
     <Layout>
@@ -19,16 +19,21 @@ const HomeIndex = () => {
 
       <div id="main">
         <section id="one">
-            <h2>
-              Restaurant & Bar
-            </h2>
-          <h3>It's nice to be back!</h3>
+          <h2>
+            Restaurant &amp; Bar
+          </h2>
+          <h3>Join us every Thursday, Friday &amp; Saturday from 5-11pm.</h3>
           <p>
-            Join us every Thursday, Friday & Saturday from 5-11pm.
+            It's been a long wait, but we're back and better than ever!
           </p>
           <p>
-            All your favourite tapas, hand-made pizzas and daily specials are available in our socially-distanced outside space.
+            Set in the heart of the beautiful village of Tiddington, a mile from Stratford-Upon-Avon, Connolly's is a family-owned and run restaurant and bar.
+            <br />Take a table, a seat at the bar or go alfresco on our sun-soaked terrace and enjoy our unique take on Spanish-style tapas. We servce classic
+            tapas-sized dishes, perfect for creating your own tasting menu. Check the boards for our daily specials for main courses and for something a little
+            bit different.
           </p>
+          <p>
+            We also serve fresh, hand-made, stone-baked pizzas straight from the oven with Connolly's signature topping combinations.</p>
           <ul className="actions">
             <li>
               <a href={Menu} target="_blank" className="button">
