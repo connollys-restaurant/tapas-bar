@@ -19,11 +19,9 @@ const HomeIndex = () => {
 
       <div id="main">
         <section id="one">
-          <header className="major">
             <h2>
               Restaurant & Bar
             </h2>
-          </header>
           <h3>It's nice to be back!</h3>
           <p>
             Join us every Thursday, Friday & Saturday from 5-11pm.
@@ -41,11 +39,9 @@ const HomeIndex = () => {
         </section>
 
         <section id="two">
-          <header className="major">
             <h2>
               Takeaway
             </h2>
-          </header>
           <p>
             We're still offering tasty takeaway every Thursday, Friday and Saturday.
           </p>
