@@ -3,6 +3,9 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 
+import Menu from '../assets/documents/Menu.pdf'
+import Takeaway from '../assets/documents/Takeaway-Menu.pdf'
+
 const HomeIndex = () => {
   const siteTitle = 'Connollys Tapas Bar'
   const siteDescription = 'For over 10 years, Connollys has been the home of great tapas & wine in Stratford-Upon-Avon. We serve tapas favourites, hand-crafted pizza, daily specials and a great selection of wine, beer and spirits.'
@@ -21,17 +24,16 @@ const HomeIndex = () => {
               Restaurant & Bar
             </h2>
           </header>
+          <h3>It's nice to be back!</h3>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            Join us every Thursday, Friday & Saturday from 5-11pm.
+          </p>
+          <p>
+            All your favourite tapas, hand-made pizzas and daily specials are available in our socially-distanced outside space.
           </p>
           <ul className="actions">
             <li>
-              <a href="Menu" target="_blank" className="button">
+              <a href={Menu} target="_blank" className="button">
                 Menu
               </a>
             </li>
@@ -45,16 +47,17 @@ const HomeIndex = () => {
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            We're still offering tasty takeaway every Thursday, Friday and Saturday.
+          </p>
+          <p>
+            Pre-orders and collection only between 5pm and 9pm.
+          </p>
+          <p>
+            Please call <a href="tel:01789 204712">01789 204712</a> ahead to order.
           </p>
           <ul className="actions">
             <li>
-              <a href="Takeaway-Menu" className="button">
+              <a href={Takeaway} target="_blank" className="button">
                 Takeaway Menu
               </a>
             </li>
@@ -64,13 +67,13 @@ const HomeIndex = () => {
         <section id="three">
           <h2>Get In Touch</h2>
           <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
+            We're always happy to help and you can get in touch with us by phone, email or social.
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form method="post" action="#">
+            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="contact" />
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
@@ -112,7 +115,7 @@ const HomeIndex = () => {
                   </h3>
                   Thursday - Saturday
                   <br />
-                  5-9pm
+                  5-11pm
                 </li>
                 <li>
                 <a href="https://g.page/Connollysrestaurant?share" target="_blank">
