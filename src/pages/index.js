@@ -124,7 +124,7 @@ const HomeIndex = () => {
                     <span className="label">Address</span>
                   </h3>
                 </a>
-                  25 Main Street, Tididngton
+                  25 Main Street, Tiddington
                   <br />
                   Stratford-Upon-Avon
                   <br />
