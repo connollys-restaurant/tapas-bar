@@ -6,7 +6,7 @@ class ContactForm extends Component {
     this.state = {
       name:'',
       email:'',
-      phone:'',
+      subject:'',
       message:'',
     };
 
@@ -20,7 +20,7 @@ class ContactForm extends Component {
     this.setState({
       name:'',
       email:'',
-      phone:'',
+      subject:'',
       message:'',
     })
   }
@@ -50,11 +50,11 @@ class ContactForm extends Component {
   async handleSubmit(e){
     e.preventDefault();
 
-    const {name, email, phone, message} = this.state;
+    const {name, email, subject, message} = this.state;
     const to_send = {
       name: name,
       email: email,
-      phone : phone,
+      subject : subject,
       message : message
     }
 
@@ -91,7 +91,7 @@ class ContactForm extends Component {
         </p>
 
         <p type="Subject:">
-          <input required placeholder="Phone" name={"phone"} type={"text"} value={this.state.phone} onChange={this.handleChange}/>
+          <input required placeholder="Subject" name={"subject"} type={"text"} value={this.state.subject} onChange={this.handleChange}/>
         </p>
 
         <p type="Message:">
