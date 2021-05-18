@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "@sendgrid/mail": "^7.4.4",
     "gatsby": "^2.20.12",
     "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-offline": "^3.1.2",
@@ -21,14 +22,15 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "start": "run-p start:**",
     "start:app": "npm run develop",
     "start:lambda": "netlify-lambda serve src/functions",
-    "build": "gatsby build && netlify-lambda build src/functions",
+    "build": "run-p build:**",
     "build:app": "gatsby build",
-    "build:lambda": "netlify-lambda build src/functions",
-    "format": "prettier --write \"**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:lambda": "netlify-lambda build src/functions"
   },
   "devDependencies": {
     "http-proxy-middleware": "^2.0.0",

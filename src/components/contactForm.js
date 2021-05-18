@@ -1,7 +1,5 @@
 import React, { Component } from "react"
 
-import '../assets/scss/contactform.scss'
-
 class ContactForm extends Component {
   constructor(props) {
     super(props);
