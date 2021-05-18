@@ -99,7 +99,7 @@ class ContactForm extends Component {
         </p>
 
         <div class={"submitBtnCntnr"}>
-          <button type={"submit"}>Send</button>
+          <button type={"submit"} className="button">Send</button>
           <div hidden id="spinner"/>
           <p><span id={"successMessage"}>Message sent - we'll get back to you ASAP</span></p>
           <p><span id={"errorMessage"}>Message could not be sent - please try again</span></p>

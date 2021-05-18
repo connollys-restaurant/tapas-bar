@@ -3,14 +3,14 @@ const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 exports.handler =  async (event, context, callback) => {
   const data = JSON.parse(event.body)
-  const { email, subject } = data
+  const { email, phone } = data
   const body = Object.keys(data).map((k) => {
     return `${k}: ${data[k]}`
   }).join("<br><br>");
   const mail_to_send = {
     to: "mraquinn@gmail.com",
     from: email,
-    subject: subject ? subject : 'New Entry from Contact Form',
+    subject: phone ? phone : 'New Entry from Contact Form',
     html: body,
   };
   try{
