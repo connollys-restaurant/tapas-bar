@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
+import ContactForm from '../components/contactForm'
 
 import Menu from '../assets/documents/Menu.pdf'
 import Takeaway from '../assets/documents/Takeaway-Menu.pdf'
@@ -36,7 +37,7 @@ const HomeIndex = () => {
             We also serve fresh, hand-made, stone-baked pizzas straight from the oven with Connolly's signature topping combinations.</p>
           <ul className="actions">
             <li>
-              <a href={Menu} target="_blank" className="button">
+              <a href={Menu} target="_blank" rel="noreferrer" className="button">
                 Menu
               </a>
             </li>
@@ -58,7 +59,7 @@ const HomeIndex = () => {
           </p>
           <ul className="actions">
             <li>
-              <a href={Takeaway} target="_blank" className="button">
+              <a href={Takeaway} target="_blank" rel="noreferrer" className="button">
                 Takeaway Menu
               </a>
             </li>
@@ -72,41 +73,7 @@ const HomeIndex = () => {
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
-            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-              <input type="hidden" name="bot-field" />
-              <input type="hidden" name="form-name" value="contact" />
-                <div className="row uniform 50%">
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      placeholder="Name"
-                    />
-                  </div>
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Email"
-                    />
-                  </div>
-                  <div className="12u">
-                    <textarea
-                      name="message"
-                      id="message"
-                      placeholder="Message"
-                      rows="4"
-                    ></textarea>
-                  </div>
-                </div>
-                <ul className="actions" style={{ marginTop: 30 }}>
-                  <li>
-                    <input type="submit" value="Send Message" />
-                  </li>
-                </ul>
-              </form>
+            <ContactForm></ContactForm>
             </div>
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
@@ -119,7 +86,7 @@ const HomeIndex = () => {
                   5-11pm
                 </li>
                 <li>
-                <a href="https://g.page/Connollysrestaurant?share" target="_blank">
+                <a href="https://g.page/Connollysrestaurant?share" target="_blank" rel="noreferrer">
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
@@ -128,7 +95,7 @@ const HomeIndex = () => {
                   <br />
                   Stratford-Upon-Avon
                   <br />
-                  <a href="https://g.page/Connollysrestaurant?share" target="_blank">CV37 7AN</a>
+                  <a href="https://g.page/Connollysrestaurant?share" target="_blank" rel="noreferrer">CV37 7AN</a>
                 </li>
                 <li>
                   <a href="tel:01789 204712">

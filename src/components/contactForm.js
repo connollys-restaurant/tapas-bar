@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 
+import '../assets/scss/contactform.scss'
+
 class ContactForm extends Component {
   constructor(props) {
     super(props);
@@ -54,7 +56,7 @@ class ContactForm extends Component {
     const to_send = {
       name: name,
       email: email,
-      subject : phone,
+      phone : phone,
       message : message
     }
 
@@ -90,7 +92,7 @@ class ContactForm extends Component {
           <input required placeholder="Email address" name={"email"} type={"email"} value={this.state.email} onChange={this.handleChange}/>
         </p>
 
-        <p type="Phone number:">
+        <p type="Subject:">
           <input required placeholder="Phone" name={"phone"} type={"text"} value={this.state.phone} onChange={this.handleChange}/>
         </p>
 
@@ -101,8 +103,8 @@ class ContactForm extends Component {
         <div class={"submitBtnCntnr"}>
           <button type={"submit"}>Send</button>
           <div hidden id="spinner"/>
-          <span id={"successMessage"}>Thanks for getting in touch!</span>
-          <span id={"errorMessage"}>Message could not be sent. Please try again.</span>
+          <p><span id={"successMessage"}>Message sent - we'll get back to you ASAP</span></p>
+          <p><span id={"errorMessage"}>Message could not be sent - please try again</span></p>
         </div>
       </form>
     )
