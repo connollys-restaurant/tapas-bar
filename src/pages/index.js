@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 
-import Menu from '../assets/documents/Menu.pdf'
+import Menu from 'https://drive.google.com/file/d/1bmpdIWA2tdMu85_aAtDI3gArIkzO4vhR/view?usp=sharing'
 import Takeaway from '../assets/documents/Takeaway-Menu.pdf'
 
 const HomeIndex = () => {
@@ -22,10 +22,7 @@ const HomeIndex = () => {
           <h2>
             Restaurant &amp; Bar
           </h2>
-          <h3>Join us every Thursday, Friday &amp; Saturday from 5-11pm.</h3>
-          <p>
-            It's been a long wait, but we're back and better than ever!
-          </p>
+          <h3>Join us every Thursday, Friday &amp; Saturday from 5pm.</h3>
           <p>
             Set in the heart of the beautiful village of Tiddington, a mile from Stratford-Upon-Avon, Connolly's is a family-owned and run restaurant and bar.
             <br />Take a table, a seat at the bar or go alfresco on our sun-soaked terrace and enjoy our unique take on Spanish-style tapas. We servce classic
@@ -116,7 +113,7 @@ const HomeIndex = () => {
                   </h3>
                   Thursday - Saturday
                   <br />
-                  5-11pm
+                  From 5pm
                 </li>
                 <li>
                 <a href="https://g.page/Connollysrestaurant?share" target="_blank">
