@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 
-import Menu from 'https://drive.google.com/file/d/1bmpdIWA2tdMu85_aAtDI3gArIkzO4vhR/view?usp=sharing'
+import Menu from '../assets/documents/Menu-2022.pdf'
 import Takeaway from '../assets/documents/Takeaway-Menu.pdf'
 
 const HomeIndex = () => {
