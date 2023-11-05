@@ -57,28 +57,6 @@ const HomeIndex = () => {
           </ul>
         </section>
 
-        //<section id="two">
-        //    <h2>
-        //      Takeaway
-        //    </h2>
-        //  <p>
-        //    We're still offering tasty takeaway every Thursday, Friday and Saturday.
-        //  </p>
-        //  <p>
-        //    Pre-orders and collection only between 5pm and 9pm.
-        //  </p>
-        //  <p>
-        //    Please call <a href="tel:01789 204712">01789 204712</a> ahead to order.
-        //  </p>
-        //  <ul className="actions">
-        //    <li>
-        //      <a href={Takeaway} target="_blank" className="button">
-        //        Takeaway Menu
-        //      </a>
-        //    </li>
-        //  </ul>
-        //</section>
-
         <section id="three">
           <h2>Get In Touch</h2>
           <p>
