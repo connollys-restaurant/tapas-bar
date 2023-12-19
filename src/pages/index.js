@@ -19,22 +19,6 @@ const HomeIndex = () => {
 
       <div id="main">
 
-      <section id="temp">
-          <h2>
-            We're closed for now, but not for long!
-          </h2>
-          <h3>Please keep an eye here and on our socials for our re-opening date.</h3>
-          <p>
-            Due to a building fire on 4th November, we've had to close temporarily to repair and refurbished the Tapas Bar.
-            <br />Thankfully, no-one was hurt and the damage could have been far worse.
-            <br />We're so grateful for all the kind messages of support and offers of help we've had from across the community.
-          </p>
-          <p>
-          We're looking forward to opening again as soon as we can.
-          <br />Tony, Jo &amp; Hannah x
-          </p>
-        </section>
-
         <section id="one">
           <h2>
             Restaurant &amp; Bar
