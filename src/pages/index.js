@@ -107,12 +107,12 @@ const HomeIndex = () => {
                   <a href="https://g.page/Connollysrestaurant?share" target="_blank">CV37 7AN</a>
                 </li>
                 <li>
-                  <a href="tel:01789 204712">
+                  <a href="tel:01789 507245">
                     <h3 className="icon fa-mobile">
                       <span className="label">Phone</span>
                     </h3>
                   </a>
-                  <a href="tel:01789 204712">01789 204712</a>
+                  <a href="tel:01789 507245">01789 507245</a>
                 </li>
                 <li>
                   <a href="mailto:info@connollystapasbar.co.uk">  
